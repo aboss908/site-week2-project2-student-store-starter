@@ -1,0 +1,9 @@
+.sidebar {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    position: fixed;
+    width: 75px;
+    height: 100%;
+    background-color: #202020;
+    color: white;
+}

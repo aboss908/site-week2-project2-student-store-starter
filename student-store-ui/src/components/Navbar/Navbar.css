@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #202020;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 75px;
+    padding-top: 6px;
+}
+
+.logo {
+    width: auto;
+    height: 64px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
