@@ -1,8 +1,10 @@
 .hero {
     display: flex;
     flex-wrap: nowrap;
-    width: 900px;
-    height: 350px;
+    width: 55%;
+    padding-bottom: 50px;
+    min-width: 700px;
+    min-height: 350px;
     margin: 0 auto;
     background-color: rgb(0, 160, 0);
     border-bottom-left-radius: 25px;

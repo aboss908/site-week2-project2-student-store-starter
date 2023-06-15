@@ -1,8 +1,7 @@
 .product-card {
     display: block;
-    border: 1px solid black;
-    box-shadow: 2px 2px black;
-    background-color: #202020;
+    border: 1px solid white;
+    background-color: white;
     width: 250px;
     padding-top: 0px;
 }
@@ -13,7 +12,7 @@
 }
 
 .product-image {
-    width: 247px;
+    width: 248px;
     height: 247px;
 }
 
@@ -21,7 +20,7 @@
     width: 80%;
     align-items: left;
     display: block;
-    color: white;
+    color: black;
     text-align: left;
     padding-left: 8px;
 }
@@ -62,6 +61,7 @@
     margin-top: 1px;
     margin-bottom: 5px;
     padding-left: 2px;
+    font-weight: bold;
 }
 
 #product-price {
