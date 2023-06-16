@@ -7,14 +7,14 @@
     min-height: 350px;
     margin: 0 auto;
     background-color: rgb(0, 160, 0);
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .welcome {
-    text-align: left;
+    text-align: center;
     margin-top: 2px;
-    padding-left: 60px;
+    padding-left: 48px;
     color: white;
     width: 50%;
 }
@@ -25,14 +25,16 @@
 
 .welcome p {
     font-size: 17px;
-    text-align: left;
+    text-align: center;
 }
 
 .store-icon {
-    width: 50%;
+    width: 45%;
     margin-top: 23px;
 }
 
 #store-logo-icon {
+    border-radius: 100px;
+    padding-top: 39px;
     width: 300px;
 }

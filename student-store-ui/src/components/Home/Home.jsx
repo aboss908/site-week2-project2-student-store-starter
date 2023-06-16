@@ -86,13 +86,13 @@ export function Contact() {
       <p id = "about-us"> Contact Us </p>
       <div className = "info-container">
         <div className = "contact-info">
-          Email: abbasstore@gmail.com
+          Email: codepathstore@gmail.com
           <br/>
           <br/>
           Phone: (301)-203-1218
           <br/>
           <br/>
-          Address: 123 Something Blvd, Maryland
+          Address: 123 Los Angeles Blvd, California
           <br/>
           <br/>
           Socials: Twitter, Instagram, Youtube

@@ -13,7 +13,7 @@
   justify-content: center;
   display: flex;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 30px;
   gap: 4vw;
 }
 
@@ -23,6 +23,7 @@
   height: 30px;
   font-size: 16px;
   border-radius: 10px;
+  margin-top: 0px;
 }
 
 .category-button:hover {
@@ -31,7 +32,7 @@
 }
 
 #search-form {
-  padding-top: 60px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -125,7 +126,7 @@
 
 .footer-container {
   color: white;
-  width: 100%;
+  width: 60%;
   height: 250px;
   gap: 10%;
   display: flex;

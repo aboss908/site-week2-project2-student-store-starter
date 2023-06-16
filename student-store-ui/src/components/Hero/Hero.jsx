@@ -1,6 +1,6 @@
 import * as React from "react"
 import "./Hero.css"
-import icon from "../../assets/icon.png"
+import icon from "../../assets/store.gif"
 
 export default function Hero() {
     return (
