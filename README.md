@@ -12,6 +12,10 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 
 ## *Week 2* Application Features
 
+VIDEO:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/a864d34e943a4addad68e47dfd6a0565?sid=8506e8ff-4a60-4424-8553-23293d412c8c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ### Core Features
 
 - [X] The website displays header, banner, search, product grid, about, contact, and footer section.
