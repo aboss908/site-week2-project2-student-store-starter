@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from "../Navbar/Navbar"
 import Sidebar from "../Sidebar/Sidebar"
 import Home from "../Home/Home"
+import ProductView from "../ProductView/ProductView"
 import "./App.css"
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
   const[error, setError] = useState("")
   const[isOpen, setOpen] = useState(false)
   const[shoppingCart, setShoppingCart] = useState([])
+  const[totalPrice, setTotalPrice] = useState(0)
 
   async function getAPIRequest() {
     try {
@@ -46,7 +48,6 @@ export default function App() {
     let filteredProducts = [...allProducts]
 
     if (searchQuery == "") {
-      console.log(allProducts)
       filteredProducts = allProducts
     } else {
       filteredProducts = filteredProducts.filter((element) => {
@@ -59,38 +60,87 @@ export default function App() {
 
   const handleItemToCart = function (event) {
     let newThing = [...allProducts]
+    let item = null
     newThing.forEach((element) => {
       if (element.id == event.target.className) {
         element.quantity++
+        setTotalPrice(totalPrice + element.price)
+        item = element
       }
     })
     setAllProducts(newThing)
     // Add to shopping cart here
+
+    let shopping = [...shoppingCart]
+    let exists = false
+    shopping.forEach((element) => {
+      if (element.id == event.target.className) {
+        exists = true
+      }
+    })
+
+    if (!exists) {
+      shopping.push(item)
+      setShoppingCart(shopping)
+    }
   }
 
   const handleRemoveItemToCart = function (event) {
+    let itemIsGone = false
     let newThing = [...allProducts]
     newThing.forEach((element) => {
       if (element.id == event.target.className) {
         if (element.quantity > 0) {
           element.quantity--
+          setTotalPrice(totalPrice - element.price)
+          if (element.quantity == 0) {
+            itemIsGone = true
+          }
         }
       }
     })
     setAllProducts(newThing)
     // Remove from shopping cart here
+
+    if (itemIsGone) {
+      let shopping = [...shoppingCart]
+      let itemToRemove = null
+      let exists = false
+      shopping.forEach((element) => {
+        if (element.id == event.target.className) {
+          exists = true
+          itemToRemove = element
+        }
+      })
+  
+      if (exists) {
+        let removed = shopping.filter((element) => {
+          return element != itemToRemove
+        })
+        setShoppingCart(removed)
+      }
+    } 
   }
 
   const searchItem = function(event) {
     setSearchQuery(event.target.value)
   }
 
+  const openCart = function() {
+    setOpen(!isOpen)
+  }
+
   return (
     <div className="app">
         <main>
           <Navbar />
-          <Sidebar />
-
+          <Sidebar isOpen = {isOpen} 
+                   openCart = {openCart} 
+                   shoppingCart = {shoppingCart} 
+                   setShoppingCart = {setShoppingCart} 
+                   totalPrice = {totalPrice} 
+                   setTotalPrice = {setTotalPrice}/>
+                   
           <Routes>
             <Route path = "/" element = 
             {<Home 
@@ -105,6 +155,11 @@ export default function App() {
               searchQuery = {searchQuery} 
               setSearchQuery = {setSearchQuery}
               searchItem = {searchItem}/>}/>
+
+              <Route path = {"/product/id/:productID"} element = {<ProductView products = {products}/>}/>
+
+              <Route path = {"*"} element = {<div className = "ERROR"> 404 ERROR NOT FOUND </div>}/>
+              
           </Routes>
         </main>
     </div>

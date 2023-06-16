@@ -1,6 +1,7 @@
 import * as React from "react"
 import "./ProductCard.css"
 import { useState } from "react"
+import {Link} from "react-router-dom"
 
 export default function ProductCard(props) {
 
@@ -16,7 +17,9 @@ export default function ProductCard(props) {
 
     return (
         <div className="product-card" id = {props.item.id}>
+            <Link className ="link" to = {`/product/id/${props.item.id}`}>
             <img className = "product-image" src={props.item.image}/>
+            </Link>
             <div className = "container">
                 <div className = "product-info">
                     <p id="product-name"> {props.item.name} </p>

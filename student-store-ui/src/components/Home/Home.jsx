@@ -83,7 +83,7 @@ export function AboutUs() {
 export function Contact() {
   return (
     <div className = "about-container">
-      <p id = "about-us"> Contact Us </p>
+      <p id = "contact-us"> Contact Us </p>
       <div className = "info-container">
         <div className = "contact-info">
           Email: codepathstore@gmail.com

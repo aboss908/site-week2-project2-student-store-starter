@@ -5,5 +5,44 @@
     width: 75px;
     height: 100%;
     background-color: #202020;
+    transition: 0.2s ease;
     color: white;
+}
+
+.opened {
+    width: 400px;
+}
+
+#open-button {
+    float: right;
+    border: none;
+    color: white;
+    background-color: inherit;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.cart {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.cart-item {
+    margin-left: 20px;
+}
+
+#cart-image {
+    width: 100px;
+}
+
+.sidebar hr{
+    margin-left: 0px;
+}
+
+.hidden {
+    display: none;
 }

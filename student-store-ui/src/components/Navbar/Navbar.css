@@ -24,3 +24,12 @@
     padding-bottom: 5px;
     font-size: 19px;
 }
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-2px);
+}
