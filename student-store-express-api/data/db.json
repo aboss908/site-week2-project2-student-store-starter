@@ -145,5 +145,458 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": 1,
+      "name": "wada",
+      "email": "awdwafawg",
+      "order": [
+        {
+          "id": 2,
+          "name": "Flamin Hot Cheetos",
+          "category": "food",
+          "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+          "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+          "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+          "price": 1.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 3,
+      "total": 3.26,
+      "taxes": 0.26,
+      "createdAt": "2023-06-23T20:12:41.013Z"
+    },
+    {
+      "id": 2,
+      "name": "waeg",
+      "email": "agagaw",
+      "order": [
+        {
+          "id": 6,
+          "name": "Bar Code Shirts",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Barcode_wikipedia_shirt.svg/640px-Barcode_wikipedia_shirt.svg.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+          "description": "So you can scan yourself in the checkout aisle.",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "name": "Striped Socks",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+          "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+          "price": 4.99,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 49.959999999999994,
+      "total": 54.33,
+      "taxes": 4.37,
+      "createdAt": "2023-06-23T20:12:53.477Z"
+    },
+    {
+      "id": 3,
+      "name": "awefwa",
+      "email": "awefawef",
+      "order": [
+        {
+          "id": 7,
+          "name": "Striped Socks",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+          "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+          "price": 4.99,
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Bar Code Shirts",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Barcode_wikipedia_shirt.svg/640px-Barcode_wikipedia_shirt.svg.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+          "description": "So you can scan yourself in the checkout aisle.",
+          "price": 19.99,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 49.96,
+      "total": 54.33,
+      "taxes": 4.37,
+      "createdAt": "2023-06-23T20:14:23.529Z"
+    },
+    {
+      "id": 4,
+      "name": "Abbas Islaw",
+      "email": "aboss9@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "name": "Flamin Hot Cheetos",
+          "category": "food",
+          "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+          "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+          "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+          "price": 1.5,
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Bar Code Shirts",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Barcode_wikipedia_shirt.svg/640px-Barcode_wikipedia_shirt.svg.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+          "description": "So you can scan yourself in the checkout aisle.",
+          "price": 19.99,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Striped Socks",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+          "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+          "price": 4.99,
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "name": "Coconut Water",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Coconut_Drink%2C_Pangandaran.JPG/1920px-Coconut_Drink%2C_Pangandaran.JPG",
+          "source": "https://commons.wikimedia.org/wiki/Category:Coconut_water#/media/File:Coconut_Drink,_Pangandaran.JPG",
+          "description": "Somehow incredibly hydrating, while also not really being water.",
+          "price": 3.25,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 39.47,
+      "total": 42.92,
+      "taxes": 3.45,
+      "createdAt": "2023-06-23T20:19:31.885Z"
+    },
+    {
+      "id": 5,
+      "name": "hgjfj",
+      "email": "ftyjf",
+      "order": [
+        {
+          "id": 2,
+          "name": "Flamin Hot Cheetos",
+          "category": "food",
+          "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+          "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+          "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+          "price": 1.5,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "name": "Cinnamon Rolls",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+          "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+          "description": "Basically just cake for breakfast, but who's complaining?",
+          "price": 2.99,
+          "quantity": 3
+        },
+        {
+          "id": 7,
+          "name": "Striped Socks",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+          "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+          "price": 4.99,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 26.94,
+      "total": 29.3,
+      "taxes": 2.36,
+      "createdAt": "2023-06-23T20:26:50.356Z"
+    },
+    {
+      "id": 6,
+      "name": "Abbas",
+      "email": "Abbas@gmail.com",
+      "order": [
+        {
+          "id": 3,
+          "name": "Cinnamon Rolls",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+          "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+          "description": "Basically just cake for breakfast, but who's complaining?",
+          "price": 2.99,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Striped Socks",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+          "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+          "price": 4.99,
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "name": "Bar Code Shirts",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Barcode_wikipedia_shirt.svg/640px-Barcode_wikipedia_shirt.svg.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+          "description": "So you can scan yourself in the checkout aisle.",
+          "price": 19.99,
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Fruit Medley",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fruits.png/640px-Fruits.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+          "description": "More fruit than you know what to do with!",
+          "price": 7.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 35.47,
+      "total": 38.57,
+      "taxes": 3.1,
+      "createdAt": "2023-06-23T20:28:01.642Z"
+    },
+    {
+      "id": 7,
+      "name": "wadawd",
+      "email": "awdwa",
+      "order": [
+        {
+          "id": 2,
+          "name": "Flamin Hot Cheetos",
+          "category": "food",
+          "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+          "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+          "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1.5,
+      "total": 1.63,
+      "taxes": 0.13,
+      "createdAt": "2023-06-23T20:31:56.746Z"
+    },
+    {
+      "id": 8,
+      "name": "abbas",
+      "email": "aewrgawg",
+      "order": [
+        {
+          "id": 1,
+          "name": "Rice Krispies",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+          "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+          "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+          "price": 0.99,
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Flamin Hot Cheetos",
+          "category": "food",
+          "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+          "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+          "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+          "price": 1.5,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 7.47,
+      "total": 8.12,
+      "taxes": 0.65,
+      "createdAt": "2023-06-23T20:36:08.181Z"
+    },
+    {
+      "id": 9,
+      "name": "Abbas Islaw",
+      "email": "aboss908@gmail.com",
+      "order": [
+        {
+          "id": 2,
+          "name": "Flamin Hot Cheetos",
+          "category": "food",
+          "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+          "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+          "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+          "price": 1.5,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "name": "Cinnamon Rolls",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+          "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+          "description": "Basically just cake for breakfast, but who's complaining?",
+          "price": 2.99,
+          "quantity": 3
+        },
+        {
+          "id": 4,
+          "name": "Coconut Water",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Coconut_Drink%2C_Pangandaran.JPG/1920px-Coconut_Drink%2C_Pangandaran.JPG",
+          "source": "https://commons.wikimedia.org/wiki/Category:Coconut_water#/media/File:Coconut_Drink,_Pangandaran.JPG",
+          "description": "Somehow incredibly hydrating, while also not really being water.",
+          "price": 3.25,
+          "quantity": 4
+        },
+        {
+          "id": 7,
+          "name": "Striped Socks",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+          "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+          "price": 4.99,
+          "quantity": 2
+        },
+        {
+          "id": 8,
+          "name": "Knitted Beanie",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg/640px-Blue_knit-cap_beanie_by_RobertLender.jpeg",
+          "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+          "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+          "price": 19.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 54.94,
+      "total": 59.75,
+      "taxes": 4.81,
+      "createdAt": "2023-06-23T20:36:18.893Z"
+    },
+    {
+      "id": 10,
+      "name": "awdad",
+      "email": "awdad",
+      "order": [
+        {
+          "id": 3,
+          "name": "Cinnamon Rolls",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+          "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+          "description": "Basically just cake for breakfast, but who's complaining?",
+          "price": 2.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.99,
+      "total": 3.25,
+      "taxes": 0.26,
+      "createdAt": "2023-06-23T20:36:33.952Z"
+    },
+    {
+      "id": 11,
+      "name": "Abbas Islaw",
+      "email": "abbas@gmail.com",
+      "order": [
+        {
+          "id": 1,
+          "name": "Rice Krispies",
+          "category": "food",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+          "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+          "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+          "price": 0.99,
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Bar Code Shirts",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Barcode_wikipedia_shirt.svg/640px-Barcode_wikipedia_shirt.svg.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+          "description": "So you can scan yourself in the checkout aisle.",
+          "price": 19.99,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Striped Socks",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+          "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+          "price": 4.99,
+          "quantity": 2
+        },
+        {
+          "id": 11,
+          "name": "Matching Rings",
+          "category": "accessories",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wedding_rings.jpg/800px-Wedding_rings.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Wedding_rings.jpg",
+          "description": "Ball out and get one for each finger!",
+          "price": 200,
+          "quantity": 1
+        },
+        {
+          "id": 14,
+          "name": "Keyboard",
+          "category": "tech",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Apple-wireless-keyboard.jpg/800px-Apple-wireless-keyboard.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Apple-wireless-keyboard.jpg",
+          "description": "A wireless keyboard for your computer! Because who doesn't like walking around while they type up an essay.",
+          "price": 110,
+          "quantity": 1
+        },
+        {
+          "id": 12,
+          "name": "Apple Watch",
+          "category": "accessories",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Apple_Watch.jpg/800px-Apple_Watch.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch.jpg",
+          "description": "Why check your phone all the time when you can check your watch all the time?",
+          "price": 399.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 741.94,
+      "total": 806.86,
+      "taxes": 64.92,
+      "createdAt": "2023-06-23T20:47:41.132Z"
+    },
+    {
+      "id": 12,
+      "name": "aa",
+      "email": "aa",
+      "order": [
+        {
+          "id": 9,
+          "name": "Pullover Sweater",
+          "category": "clothing",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jumper_altered_PsCSJPG10.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Jumper_altered_PsCSJPG10.jpg",
+          "description": "At $4.99, can you really afford NOT to buy this?",
+          "price": 4.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.99,
+      "total": 5.43,
+      "taxes": 0.44,
+      "createdAt": "2023-06-23T20:48:54.295Z"
+    }
+  ]
 }

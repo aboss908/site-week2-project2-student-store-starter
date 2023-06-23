@@ -2,10 +2,10 @@
     overflow-x: scroll;
     overflow-y: scroll;
     position: fixed;
-    width: 75px;
+    width: 90px;
     height: 100%;
     background-color: #202020;
-    transition: 0.2s ease;
+    transition: 0.1s ease-in-out;
     color: white;
 }
 
@@ -13,36 +13,100 @@
     width: 400px;
 }
 
+.icon {
+    float: right;
+    border: none;
+    background-color: inherit;
+    font-size: 25px;
+    height: 45px;
+    width: 45px;
+}
+
 #open-button {
     float: right;
     border: none;
-    color: white;
+    color: rgb(170, 170, 170);
     background-color: inherit;
     font-size: 25px;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-right: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
     height: 50px;
     width: 50px;
 }
 
-.cart {
-    display: block;
-    margin-bottom: 50px;
-}
-
-.cart-item {
-    margin-left: 20px;
-}
-
-#cart-image {
-    width: 100px;
-}
-
-.sidebar hr{
-    margin-left: 0px;
+.checkout-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .hidden {
-    display: none;
+   display: none;
 }
+
+#info-label {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.inputs {
+    border: none;
+    border-radius: 13px;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    width: 325px;
+    height: 30px;
+}
+
+#submit-button {
+    justify-content: left;
+    margin: 0px;
+    margin-bottom: 25px;
+    border: 1.5px solid white;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 35px;
+}
+
+#submit-button:active {
+    border: 1.5px solid turquoise;
+    color: turquoise;
+}
+
+#terms {
+    margin: none;
+}
+
+#terms-text {
+    margin: 0;
+}
+
+.terms-container {
+    display: flex;
+    height: 25px;
+    min-width: 325px;
+}
+
+.receipt {
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style-position: inside;
+}
+
+.exit-button {
+    margin-top: 10px;
+    height: 25px;
+    width: 70px;
+    border: none;
+    border: 1.5px solid white;
+    background-color: black;
+    color: white;
+}
+

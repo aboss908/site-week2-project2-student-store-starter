@@ -15,6 +15,7 @@ export default function App() {
   const[searchQuery, setSearchQuery] = useState("")
   const[error, setError] = useState("")
   const[isOpen, setOpen] = useState(false)
+  const[isEmpty, setEmpty] = useState(true)
   const[shoppingCart, setShoppingCart] = useState([])
   const[totalPrice, setTotalPrice] = useState(0)
 
@@ -23,7 +24,7 @@ export default function App() {
       if(!isFetching) {
         setFetching(true)
       }
-      const data = await fetch('https://codepath-store-api.herokuapp.com/store')
+      const data = await fetch('http://localhost:3001/store')
       const dataJSON = await data.json()
       return dataJSON
     } catch (err) {
@@ -69,8 +70,8 @@ export default function App() {
       }
     })
     setAllProducts(newThing)
-    // Add to shopping cart here
 
+    // Add to shopping cart here
     let shopping = [...shoppingCart]
     let exists = false
     shopping.forEach((element) => {
@@ -100,8 +101,8 @@ export default function App() {
       }
     })
     setAllProducts(newThing)
-    // Remove from shopping cart here
 
+    // Remove from shopping cart here
     if (itemIsGone) {
       let shopping = [...shoppingCart]
       let itemToRemove = null
@@ -134,12 +135,17 @@ export default function App() {
     <div className="app">
         <main>
           <Navbar />
-          <Sidebar isOpen = {isOpen} 
-                   openCart = {openCart} 
-                   shoppingCart = {shoppingCart} 
-                   setShoppingCart = {setShoppingCart} 
-                   totalPrice = {totalPrice} 
-                   setTotalPrice = {setTotalPrice}/>
+          <Sidebar 
+            allProducts = {allProducts}
+            setAllProducts = {setAllProducts}
+            isOpen = {isOpen} 
+            openCart = {openCart} 
+            shoppingCart = {shoppingCart} 
+            setShoppingCart = {setShoppingCart} 
+            totalPrice = {totalPrice} 
+            setTotalPrice = {setTotalPrice}
+            isEmpty = {isEmpty}
+            setEmpty = {setEmpty}/>
                    
           <Routes>
             <Route path = "/" element = 
@@ -156,7 +162,10 @@ export default function App() {
               setSearchQuery = {setSearchQuery}
               searchItem = {searchItem}/>}/>
 
-              <Route path = {"/product/id/:productID"} element = {<ProductView products = {products}/>}/>
+              <Route path = {"/product/id/:productID"} element = 
+              {<ProductView products = {products} 
+                setFetching = {setFetching}
+                setError = {setError}/>}/>
 
               <Route path = {"*"} element = {<div className = "ERROR"> 404 ERROR NOT FOUND </div>}/>
               

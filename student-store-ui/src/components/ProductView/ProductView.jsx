@@ -1,19 +1,32 @@
 import * as React from "react"
 import {useParams} from "react-router-dom"
 import { Link } from "react-router-dom"
+import { useEffect, useState } from "react"
 import "./ProductView.css"
 
 export default function ProductView(props) {
+    const[product, setProduct] = useState([])
     const params = useParams()
-    let id = params.productID
-    let product = null
-    let products = props.products
+    const id = params.productID
 
-    product = products.filter((element) => {
-        return element.id == id
-    })
+    async function grabItem(id) {
+        try {
+            props.setFetching(true)
+            let data = await fetch(`http://localhost:3001/store/${id}`)
+            let formattedData = await data.json()
+            return formattedData
+        } catch (error) {
+            props.setError(error)
+        } finally {
+            props.setFetching(false)
+        }
+    }
 
-    product = product ? product[0]: null
+    useEffect(() => {
+        grabItem(id).then((item) => {
+            setProduct(item)
+        })
+    }, [])
 
     return (
         <div className="view-container">
