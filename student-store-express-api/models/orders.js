@@ -6,7 +6,7 @@ class Order {
 
     static async retrieveAll() {
         const list = store.get("purchases").value()
-        let allProducts = {products: list}
+        let allProducts = {purchases: list}
         return JSON.stringify(allProducts)
     }
 
