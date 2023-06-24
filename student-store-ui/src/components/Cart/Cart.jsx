@@ -29,8 +29,7 @@ export default function Cart(props) {
           <tbody>
             <tr>
               <td>
-                
-                <hr id="divider" />
+                <hr id="divider"/>
               </td>
             </tr>
           </tbody>
@@ -63,8 +62,7 @@ export default function Cart(props) {
           <tbody>
             <tr>
               <td>
-                
-                <hr id="divider" />
+                <hr id="divider"/>
               </td>
             </tr>
           </tbody>

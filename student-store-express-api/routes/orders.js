@@ -3,8 +3,6 @@ const router = express.Router()
 const Order = require("../models/orders.js")
 const { BadRequestError } = require("../utils/errors.js")
 
-// GET REQUESTS
-
 router.get("/:id", async (req, res, next) => {
     try {
         if (isNaN(req.params.id)) {
